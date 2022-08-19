@@ -23,8 +23,7 @@ def convert_to_docx(text):
 dir = "app/static"
 
 origins = [
-    "http://localhost:3000",
-    "localhost:3000"
+    "*"
 ]
 
 # Define fastAPI app
