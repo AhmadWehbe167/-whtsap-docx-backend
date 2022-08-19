@@ -42,6 +42,9 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
+@app.get("/")
+def status():
+    return {"Status":"Working"}
 
 @app.post("/uploadfile")
 async def upload_file(file: UploadFile, fileExtension: str = Form(default=True)):
