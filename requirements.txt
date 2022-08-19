@@ -15,7 +15,6 @@ Jinja2==3.1.2
 lxml==4.9.1
 MarkupSafe==2.1.1
 orjson==3.7.12
-pkg_resources==0.0.0
 pydantic==1.9.2
 python-docx==0.8.11
 python-dotenv==0.20.0
